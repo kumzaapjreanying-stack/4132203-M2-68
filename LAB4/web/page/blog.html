@@ -1,0 +1,14 @@
+ <html> 
+    <body>
+      <div id='ip_blog'>loading...</div>
+      <div id='tb_blog'>loading...</div>
+    </body>
+ </html>
+
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("#ip_blog").load("/web/component/blog_input.html");
+            $("#tb_blog").load("/web/component/blog_table.html");
+        });
+   </script>
